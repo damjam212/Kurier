@@ -1,0 +1,3 @@
+C:\Users\Damian\source\repos\ProjektFinalny\reactapp\obj\Debug\reactapp.esproj.SuggestedBindingRedirects.cache
+C:\Users\Damian\source\repos\ProjektFinalny\reactapp\obj\Debug\reactapp.esproj.CoreCompileInputs.cache
+C:\Users\Jakub Kępka\Desktop\Materialy_Stud\Informatyka\semestr_5\DOTNET\git\project\delivery\Delivery_Managment\reactapp\obj\Debug\reactapp.esproj.CoreCompileInputs.cache

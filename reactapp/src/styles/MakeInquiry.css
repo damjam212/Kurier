@@ -1,0 +1,34 @@
+.orange_box_outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.orange_box_inner {
+    border: 2px solid #ff0000;
+
+    transform: translateX(10%);
+}
+
+.Text-field {
+
+    height: 40px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.place_holder {
+    font-size: 12px;
+    width: 50%;
+    /* Zmieniona wielkość wczytywania */
+    text-align: center;
+    /* Wyrównanie tekstu do środka */
+    padding: 10px;
+    background-color: #b57f2d63;
+    border: 2px solid #e68a00;
+    border-radius: 5px;
+
+}

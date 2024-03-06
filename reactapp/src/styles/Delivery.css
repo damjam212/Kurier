@@ -1,0 +1,55 @@
+/* Rectangle.css */
+
+.rectangle {
+    background-color: orange;
+    border: 2px solid darkorange;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    transition: height 0.3s;
+}
+
+.expanded {
+    height: 300px;
+}
+
+.inner-rectangle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side,
+.right-side {
+    width: 20%;
+    float: left;
+    padding-right: 50px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+button {
+    height: 70px;
+    padding: 10px;
+    background-color: darkorange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-inline-start: 500px;
+}
+
+label {
+    margin-left: 5px;
+}

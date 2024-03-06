@@ -1,0 +1,53 @@
+.redirect_button {
+    padding: 20px 30px;
+
+    /* Ustawienie większego paddingu dla większego przycisku */
+    background-color: #e68a00;
+    /* Kolor tła */
+    color: white;
+    /* Kolor tekstu */
+    border: none;
+    /* Usunięcie domyślnej ramki */
+    border-radius: 10px;
+    /* Zaokrąglenie ramki */
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Dodatkowy styl dla efektu hover */
+.redirect-button:hover {
+    background-color: #e68a00;
+    /* Zmiana koloru tła po najechaniu kursorem */
+}
+.accept
+{
+    padding: 10px 10px;
+    margin: 5px;
+  background-color: green;
+}
+.decline
+{
+    margin: 5px;
+    border-radius: 5;
+    padding: 10px 10px;
+    background-color: red;
+}
+.loginButton
+{  font-family:  sans-serif;
+
+    font-style: bold;
+    background-color:dimgray;
+    color: whitesmoke;
+    padding: 20px;
+    margin: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 10px dimgray;
+    font-weight: bold;
+
+}
+.loginButton:hover
+{  
+
+   border-color: #e68a00;
+}

@@ -1,0 +1,101 @@
+/* ShippingForm.css */
+
+/*
+#FFCD29
+#FFC45A
+#FFC086
+#FFC2B0
+*/
+form#shipping-form {
+    display: flex;
+    flex-direction: column;
+    justify-items: center; /* Wyśrodkowanie elementów w osi poziomej */
+    width: 50%;
+    align-items: center;
+    padding: 50px;
+    border: 4px solid #FFCD29;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  form#shipping-form label{
+    width: 60%;
+  }
+  /* Stylowanie poszczególnych inputów */
+  form#shipping-form input[type="text"],
+  form#shipping-form select {
+    width: 100%; /* Wypełnienie całej przestrzeni wewnątrz komórki */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Stylowanie przycisku */
+  form#shipping-form input[type="submit"] {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #FFCD29;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form#shipping-form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+  }
+  
+  ReactModal__Overlay--after-open {
+    opacity: 1;
+  }
+  
+  ReactModal__Overlay--before-close {
+    opacity: 0;
+  }
+
+  .order{
+    border: 4px solid #FFCD29;
+    margin: 10px;
+    padding: 10px 50px;
+    
+  }
+  .order:hover {
+    background-color: #999999; /* Zmień kolor tła po najechaniu */
+    /* Dodaj inne style lub efekty, które chcesz zastosować po najechaniu */
+
+
+}
+.logged{
+  position: fixed;
+  top: 10px;
+  right: 2px;
+  border-radius: 3px;
+  border: 2px solid #FFCD29;
+  margin: 10px;
+  padding: 5px 20px;
+  order: 100;
+  background-color: antiquewhite;
+  z-index: 9999; /* Dostosuj wartość z-index według potrzeb */
+
+}
+
+.NumberLabel
+{
+  border: 4px solid #FFCD29;
+  border-radius: 5px;
+  width: 200px;
+  background-color: #999999;
+  -webkit-appearance: none;
+
+}.NumberLabel::-webkit-outer-spin-button,
+.NumberLabel::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+
+}

@@ -1,0 +1,42 @@
+.SlideBar
+{
+    background-color: #FFCD29;
+    width: 100%;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* W razie potrzeby, ustaw odpowiednią wartość */
+  }
+  
+  .SlideBar button{
+    padding: 10px 40px;
+    font-size: 2em;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px; /* Zaokrąglenie krawędzi */
+
+  }
+
+  .SlideBar .Counter {
+    padding: 50px;
+    font-size: 2em;
+    color: white;
+
+  }
+
+  .About
+  {
+    margin: 50px 30%; /* Margines 0 na górze/dole, 15% po bokach */
+    
+  }
+  
+  .About p
+  {
+    padding: 50px;
+    background-color:  #FFA629;
+    border-radius: 20px;
+  }
